@@ -1,5 +1,5 @@
 package calculadora;
-//oi
+
 import java.util.ArrayList;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -97,10 +97,10 @@ public class Calculadora {
                             System.out.println(novaOperacao);
                         }
 
-                        System.out.println("---------------------------------------------------------------------------------------\n");
+                       
                     } catch (FileNotFoundException e) {
                         System.err.println("Arquivo não encontrado.");
-                        System.out.println("---------------------------------------------------------------------------------------\n");
+                        
                     }
                 } else if (escolha == 9) {
                     System.out.println("\n Sair do programa.");
